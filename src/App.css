@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat,wght@0,100..900;100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0, 10px;
+  display: flex;
+  background: #626cd6;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbody{
+  background-color: floralwhite;
+  border-radius: 15px;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: left;
+  background-color: floralwhite;
+  color: black;
+  font-size: 10px;
+  border-radius: 15px;
+  width: 500px;
+}
+
+.addtask{
+  display: flex;
+  justify-content: center;
+}
+
+.add-icon{
+  cursor: pointer;
+}
+
+input[type='text'] {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.content{
+  padding: 20px 0px 20px 0px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-b;
+  font-size: 20px;
+  color: black;
+}
+
+.task{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.task p {
+  flex: 1;
+}
+
+.task .delete-icon {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.task .delete-icon :hover{
+  color: red;
+}
